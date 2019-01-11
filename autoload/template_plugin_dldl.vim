@@ -3,10 +3,10 @@ scriptencoding utf-8
 let s:save_cpo = &cpo
 set cpo&vim
 
-function! template_plugin_d2l#Do()
+function! template_plugin_dldl#Do()
     let l:count = v:count1
     for i in range(1, l:count)
-        normal d2l
+        normal dldl
     endfor
     silent! call repeat#set("\<Plug>(hoge)", l:count)
 endfunction
