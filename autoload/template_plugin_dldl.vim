@@ -8,7 +8,7 @@ function! template_plugin_dldl#Do()
     for i in range(1, l:count)
         normal dldl
     endfor
-    silent! call repeat#set("\<Plug>(hoge)", l:count)
+    silent! call repeat#set("\<Plug>(Delete2Chars)", l:count)
 endfunction
 
 let &cpo = s:save_cpo
